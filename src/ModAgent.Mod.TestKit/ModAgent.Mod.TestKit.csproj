@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>ModAgent.Mod.TestKit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ModAgent 贡献者</Authors>
+    <Description>用于测试 ModAgent Mod 的 Mock Context、Fake 服务和测试辅助工具。</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ModAgent.Abstractions/ModAgent.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

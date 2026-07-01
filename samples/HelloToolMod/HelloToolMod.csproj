@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HelloToolMod</AssemblyName>
+    <RootNamespace>HelloToolMod</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/ModAgent.Abstractions/ModAgent.Abstractions.csproj" />
+    <ProjectReference Include="../../src/ModAgent.Mod.Sdk/ModAgent.Mod.Sdk.csproj" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

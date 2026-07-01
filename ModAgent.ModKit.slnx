@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/HelloToolMod/HelloToolMod.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ModAgent.Abstractions/ModAgent.Abstractions.csproj" />
+    <Project Path="src/ModAgent.Mod.Sdk/ModAgent.Mod.Sdk.csproj" />
+    <Project Path="src/ModAgent.Mod.TestKit/ModAgent.Mod.TestKit.csproj" />
+  </Folder>
+</Solution>
