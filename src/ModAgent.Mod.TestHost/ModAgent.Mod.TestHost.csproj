@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>modagent-testhost</AssemblyName>
+    <RootNamespace>ModAgent.Mod.TestHost</RootNamespace>
+    <Description>ModAgent 本地 Mod 测试宿主，加载 Mod DLL 并用 Mock Context 交互式测试。</Description>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ModAgent.Abstractions/ModAgent.Abstractions.csproj" />
+    <ProjectReference Include="../ModAgent.Mod.TestKit/ModAgent.Mod.TestKit.csproj" />
+  </ItemGroup>
+
+</Project>

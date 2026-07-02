@@ -7,5 +7,6 @@
     <Project Path="src/ModAgent.Abstractions/ModAgent.Abstractions.csproj" />
     <Project Path="src/ModAgent.Mod.Sdk/ModAgent.Mod.Sdk.csproj" />
     <Project Path="src/ModAgent.Mod.TestKit/ModAgent.Mod.TestKit.csproj" />
+    <Project Path="src/ModAgent.Mod.TestHost/ModAgent.Mod.TestHost.csproj" />
   </Folder>
 </Solution>
