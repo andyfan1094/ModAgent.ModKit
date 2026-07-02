@@ -45,16 +45,18 @@ dotnet build samples/FullFeatureMod/FullFeatureMod.csproj
 正式宿主闭源发布为二进制，开发者通过 DevHost 或正式 App 的开发模式加载自己的 DLL：
 
 ```bash
-modagent dev --mod ./bin/Debug/net10.0/MyPlugin.dll
+./run-devhost.command --dev --mod ./bin/Debug/net10.0/MyPlugin.dll --wait-for-debugger
 ```
 
 也可以在 IDE 中把闭源宿主配置为启动程序，并把当前 Mod 的 `$(TargetPath)` 传给 `--mod` 参数。
+开源仓库的 GitHub Release 会提供 `ModAgent.DevHost-osx-arm64-<version>.zip`，里面包含闭源宿主二进制和官方 Mod 二进制，不包含核心源码。
 
 ## 文档入口
 
 - `docs/mod-development-guide.md`：完整 Mod 开发、测试、调试和发布流程。
 - `docs/full-feature-sample.md`：全功能示例 Mod 的能力说明和运行方式。
 - `docs/closed-core-devhost-packaging.md`：核心闭源时如何打包 DevHost，避免泄露源码。
+- `docs/devhost-runtime-package.md`：如何把闭源 DevHost 和官方 Mod 打成 Release 运行包。
 - `docs/open-source-boundary.md`：开源边界和闭源核心保护策略。
 - `docs/publishing.md`：公开仓库和 Release 发布建议。
 
